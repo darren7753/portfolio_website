@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathew Darren</title>
+	<link rel="icon" type="iamge/jpg" href="./assets/profile picture.jpg"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaquaries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><a href="https://darren7753.github.io/portfolio_website/">Mathew Darren</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+		<div class="logo"><a href="https://darren7753.github.io/portfolio_website/">Mathew Darren</a></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img
+                src="./assets/profile picture.jpg"
+                alt="Mathew Darren's Profile Picture"
+                class="circular-img"
+            />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Mathew Darren</h1>
+            <p class="section__text__p2">Freelance Data Analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CV Mathew Darren Kusuma.pdf')">Download CV</button>
+                <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button> -->
+                <button class="btn btn-color-1" onclick="window.open('https://fastwork.id/user/darren7753', '_blank');">Freelance Info</button>
+            </div>
+            <div id="socials-container">
+                <img
+                    src="./assets/linkedin.png"
+                    alt="Darren's LinkedIn Profile"
+                    class="icon"
+                    onclick="window.open('https://www.linkedin.com/in/mathewdarren/', '_blank');"
+                />
+                <img
+                    src="./assets/github.png"
+                    alt="Darren's GitHub Profile"
+                    class="icon"
+                    onclick="window.open('https://github.com/darren7753', '_blank');"
+                />
+            </div>            
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                <div class="details-container">
+                    <img
+                        src="./assets/diponegoro university.svg"
+                        alt="Diponegoro University Logo"
+                        class="icon"
+                    />
+                    <h3>Diponegoro University</h3>
+                    <p>Oct 2022 - Dec 2022<br>Numerical Methods Lab Assistant</p>
+                </div>
+                <div class="details-container">
+                    <img
+                        src="./assets/ministry of finance.png"
+                        alt="Ministry of Finance Logo"
+                        class="icon"
+                    />
+                    <h3>Ministry of Finance</h3>
+                    <p>Dec 2022 - Jan 2023<br>Data Analyst Intern</p>
+                </div>
+                <div class="details-container">
+                    <img
+                        src="./assets/vidio.webp"
+                        alt="Vidio Logo"
+                        class="icon"
+                    />
+                    <h3>PT Vidio Dot Com</h3>
+                    <p>Feb 2023 - Jun 2023<br>Data Analyst Intern</p>
+                </div>
+                <div class="details-container">
+                    <img
+                        src="./assets/fastwork.png"
+                        alt="Fastwork Logo"
+                        class="icon"
+                    />
+                    <h3>Fastwork.id</h3>
+                    <p>Apr 2022 - Present<br>Freelance Data Analyst</p>
+                </div>
+                </div>
+                <div class="text-container">
+                <p>
+                    Hi there! I'm Mathew Darren, a final-year Statistics student at Diponegoro University with a profound passion for Data Science. Alongside my academic pursuits, I've been freelancing as a Data Analyst at Fastwork.id for over two years, offering an array of data-centric services like data analysis, machine learning modeling, dashboard creation, web scraping, and statistical analysis. Additionally, I had the opportunity to intern as a Data Analyst at PT Vidio Dot Com, further enriching my experience. I'm enthusiastic about further developing my skills in this domain. Should you have any questions or wish to discuss anything with me, please don't hesitate to reach out. Thank you!
+                </p>
+                </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow Icon"
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Favorite</p>
+        <h1 class="title">Freelance Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/project 4G Monitoring Dashboard.png"
+                            alt="4G Monitoring Dashboard"
+                            class="project-img"
+                        />
+                    </div>
+                    <h3 class="experience-sub-title project-title">4G Monitoring Dashboard</h3>
+                    <p class="experience-sub-title project-description">Monitoring internet bandwidth data in real-time for a specific internet service provider</p>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/darren7753/4g_monitoring', '_blank');"
+                        >
+                            GitHub
+                        </button>
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://4gmonitoring.streamlit.app/', '_blank');"
+                        >
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/project Campaign Results Dashboard.png"
+                            alt="Campaign Results Dashboard"
+                            class="project-img"
+                        />
+                    </div>
+                    <h3 class="experience-sub-title project-title">Campaign Results Dashboard</h3>
+                    <p class="experience-sub-title project-description">Presenting the results of the 2024 campaign for a specific legislative candidate in South Sulawesi Province</p>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://public.tableau.com/app/profile/matthew.darren/viz/Dashboardcopy_17056039973450/Dashboard1', '_blank');"
+                        >
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/project Election Results Dashboard.png"
+                            alt="Election Results Dashboard"
+                            class="project-img"
+                        />
+                    </div>
+                    <h3 class="experience-sub-title project-title">Election Results Dashboard</h3>
+                    <p class="experience-sub-title project-description">Presenting the results of the 2019 DPR legislative election for the Golkar Party in East Java V Electoral District</p>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://public.tableau.com/app/profile/matthew.darren/viz/REKAPITULASIHASILPEMILULEGISLATIFDPRRI2019/RekapitulasiHasilPemiluLegislatifDPRRI2019', '_blank');"
+                        >
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/project Budget vs. Actual Dashboard.png"
+                            alt="project Budget vs. Actual Dashboard"
+                            class="project-img"
+                        />
+                    </div>
+                    <h3 class="experience-sub-title project-title">Budget vs. Actual Dashboard</h3>
+                    <p class="experience-sub-title project-description">Reporting the 2023 budget and expenditure realization of the Banjarbaru City Government</p>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://lookerstudio.google.com/s/mIPf43XT7OI', '_blank');"
+                        >
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/project US Sunrise & Sunset Calendars.png"
+                            alt="US Sunrise & Sunset Calendars"
+                            class="project-img"
+                        />
+                    </div>
+                    <h3 class="experience-sub-title project-title">US Sunrise & Sunset Calendars</h3>
+                    <p class="experience-sub-title project-description">Scraping sunrise and sunset data for all cities in 27 states across the US from January 2022 to April 2023</p>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/darren7753/sunrise_sunset_calendar', '_blank');"
+                        >
+                            GitHub
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/project Dentists' Information.png"
+                            alt="Dentists' Information"
+                            class="project-img"
+                        />
+                    </div>
+                    <h3 class="experience-sub-title project-title">Dentists' Information</h3>
+                    <p class="experience-sub-title project-description">Scraping dentist data from the Ministry of Health and Indonesian Association of Orthodontists websites</p>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/darren7753/dentists_data_collection', '_blank');"
+                        >
+                            GitHub
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img
+                    src="./assets/email.png"
+                    alt="Email icon"
+                    class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:matthewdarren7753@gmail.com">matthewdarren7753@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                    src="./assets/linkedin.png"
+                    alt="LinkedIn icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/mathewdarren/" target="_blank">Mathew Darren</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Mathew Darren. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
